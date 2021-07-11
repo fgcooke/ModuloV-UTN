@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.container {
+  border: blue solid 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding: 0px;
+  width: 100%;
+}
+
+.img {
+  border: yellow solid 1.5px;
+  width: 130px;
+  margin-right: 2px;
+  border-radius: 20%;
+}
+
+.cnt-info {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.cnt-title{
+  border: orange solid 1.5px;
+  color: orange;
+  font-size: 35px;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.cnt-description{
+  border: grey solid 1.5px;
+  font-size: 20px;
+  height: 150%;
+  margin-top: 0;
+  height: 75px;
+}
+
